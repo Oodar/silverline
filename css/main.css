@@ -240,8 +240,21 @@ div#left
 	font-family: Georgia, "Times New Roman", Times, serif;
 	background: #411c41;
 	height: 100%;
-	width: 620px;
+	width: 310px;
 	padding-left: 5px;
+}
+
+div#left h1
+{
+	text-align: left;
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
+	font-size: 2em;
+	padding-left: 5px;
+	margin: 0;
+	padding-top: 15px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-weight: normal;
 }
 
 div#left p
@@ -250,13 +263,18 @@ div#left p
 	padding-right: 5px;
 }
 
+div#left ul
+{
+	list-style-image: url('../img/plus.png');
+}
+
 div#right
 {
 	float: left;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	background: #411c41;
 	height: 100%;
-	width: 310px;
+	width: 620px;
 	padding-right: 5px;
 }
 
