@@ -226,7 +226,7 @@ div#navbar ul li a:hover
 	font-size: 2em;
 	line-height: 46px;
 	background-position: 95%;
-	background-color: #833a83;
+	background: url('../img/arrow.png') #833a83 no-repeat 250px;
 	height: 46px;
 	position: absolute;
 	bottom: 0px;
@@ -235,7 +235,7 @@ div#navbar ul li a:hover
 
 div#middle .morebutton
 {
-	background-color: #411c41;
+	background: url('../img/arrow.png') #411c41 no-repeat 250px;
 }
 
 div#left
@@ -248,6 +248,12 @@ div#left
 	background: #411c41;
 }
 
+div#left p
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 div#middle
 {
 	width: 300px;
@@ -258,6 +264,13 @@ div#middle
 	height: 280px;
 }
 
+div#middle p
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
 div#right
 {
 	width: 300px;
@@ -266,6 +279,13 @@ div#right
 	color: #FFF;
 	background: #411c41;
 }
+
+div#right p
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
 
 h1
 {
