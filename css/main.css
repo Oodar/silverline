@@ -194,6 +194,7 @@ div#navbar ul li a:hover
 {
 	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
 	font-size: 2.5em;
+	font-weight: normal;
 }
 
 .panel#bookings
@@ -223,25 +224,28 @@ div#navbar ul li a:hover
 {
 	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
 	font-size: 2em;
-	padding-left: 25px;
 	line-height: 46px;
-
-	background: url('../arrow.png') no-repeat;
 	background-position: 95%;
-	background-color: #833a83; 
+	background: url('../img/arrow.png') #833a83 no-repeat 250px;
 	height: 46px;
-	margin-left: -10px;
-	
+	position: absolute;
+	bottom: 0px;
+	width: 300px;
+}
+
+div#middle .morebutton
+{
+	background: url('../img/arrow.png') #411c41 no-repeat 250px;
 }
 
 div#left
 {
+	width: 300px;
+	height: 280px;
+	margin-right: 20px;
 	float: left;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
 	background: #411c41;
-	height: 100%;
-	width: 620px;
-	padding-left: 5px;
 }
 
 div#left p
@@ -250,14 +254,30 @@ div#left p
 	padding-right: 5px;
 }
 
+div#middle
+{
+	width: 300px;
+	margin-right: 20px;
+	float: left;
+	color: #FFF;
+	background: #833a83;
+	height: 280px;
+}
+
+div#middle p
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
 div#right
 {
+	width: 300px;
+	height: 280px;
 	float: left;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
 	background: #411c41;
-	height: 100%;
-	width: 310px;
-	padding-right: 5px;
 }
 
 div#right p
@@ -265,6 +285,7 @@ div#right p
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
 
 h1
 {
@@ -298,6 +319,8 @@ div#footer p
 
 #bottompanes
 {
+	margin: 0;
+	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
 	height: 320px;
