@@ -48,6 +48,18 @@ div#header
 	color: #FFF;
 }
 
+div#header2
+{
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
+	text-align: left;
+	font-size: 2em;
+	color: #FFF;
+	width: 220px;
+	line-height: 25px;
+	padding-top: 17px;
+	margin-left: -40px;
+}
+
 /* navigation */
 div#navbar
 {
@@ -226,16 +238,36 @@ div#navbar ul li a:hover
 	font-size: 2em;
 	line-height: 46px;
 	background-position: 95%;
-	background: url('../img/arrow.png') #833a83 no-repeat 250px;
+	/*background: url('../img/arrow.png') #833a83 no-repeat 250px;*/
 	height: 46px;
 	position: absolute;
 	bottom: 0px;
 	width: 300px;
 }
 
-div#middle .morebutton
+.morebutton a
+{
+	display: block;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 55px;
+	background: url('../img/arrow.png') #833a83 no-repeat 250px;
+}
+
+.morebutton a:hover
+{
+	color: #FFF;
+	background: url('../img/arrowhover.png') #833a83 no-repeat 250px;
+}
+
+div#middle .morebutton a
 {
 	background: url('../img/arrow.png') #411c41 no-repeat 250px;
+}
+
+div#middle .morebutton a:hover
+{
+	background: url('../img/arrowhover.png') #411c41 no-repeat 250px;
 }
 
 div#left
