@@ -1,0 +1,6 @@
+*.swp
+*.vim
+*.js~
+*.css~
+*.html~
+*.gitignore~
