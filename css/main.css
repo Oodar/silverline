@@ -54,7 +54,6 @@ div#header2
 	text-align: left;
 	font-size: 2em;
 	color: #FFF;
-	width: 220px;
 	line-height: 25px;
 	padding-top: 17px;
 	margin-left: -40px;
@@ -65,7 +64,7 @@ div#navbar
 {
 	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
 	color: #FFF;
-	height: 50px;
+	height: 66px;
 	font-size: 1.5em;
 	border-bottom: 1px solid #aaa;
 }
@@ -85,7 +84,7 @@ div#navbar ul li
 
 div#navbar ul li a
 {
-	line-height: 50px;
+	line-height: 90px;
 	margin: 0;
 	padding-right: 10px;
 	color: #FFF;
@@ -346,7 +345,7 @@ div#footer p
 /* spacer */
 .spacer
 {
-	height: 3em;
+	height: 2.5em;
 }
 
 #bottompanes
@@ -376,7 +375,7 @@ div#footer p
 
 #servicesRight
 {
-	background: #FFF;
+	color: #FFF;
 }
 
 #servicesNav
