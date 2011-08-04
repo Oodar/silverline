@@ -273,8 +273,8 @@ div#left
 
 div#left p
 {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 div#middle
@@ -289,8 +289,8 @@ div#middle
 
 div#middle p
 {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
@@ -305,8 +305,8 @@ div#right
 
 div#right p
 {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
@@ -436,6 +436,9 @@ div#footer p
 	height: 100%;
 	width: 100%;
 	position: relative;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 .quotebubble-left p
@@ -470,6 +473,9 @@ div#footer p
 	width: 100%;
 	position: relative;
 	margin-top: 20px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 .quotebubble-right p
