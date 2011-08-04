@@ -273,8 +273,8 @@ div#left
 
 div#left p
 {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 div#middle
@@ -289,8 +289,8 @@ div#middle
 
 div#middle p
 {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
@@ -305,8 +305,8 @@ div#right
 
 div#right p
 {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 
