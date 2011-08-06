@@ -194,6 +194,11 @@ div#navbar ul li a:hover
 	padding: 10px;
 }
 
+.panel p a
+{
+	text-decoration: underline;
+}
+
 .panel h2
 {
 	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
