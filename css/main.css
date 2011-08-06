@@ -25,6 +25,7 @@ body
 {
 	background: #682d68 url("../img/tiledbg.png") repeat-x;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
 }
 
 a
@@ -443,6 +444,7 @@ div#footer p
 
 .quotebubble-left p
 {
+	color: #000;
 	margin: 0;
 	padding: 10px 15px 10px 15px;
 }
@@ -480,6 +482,7 @@ div#footer p
 
 .quotebubble-right p
 {
+	color: #000;
 	margin: 0;
 	padding: 10px 15px 10px 15px;
 }
