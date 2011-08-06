@@ -192,6 +192,8 @@ div#navbar ul li a:hover
 	background: #000;
 	color: #FFF;
 	padding: 10px;
+	width: 400px;
+	font-size: 1.3em;
 }
 
 .panel p a
@@ -208,17 +210,19 @@ div#navbar ul li a:hover
 
 .panel#bookings
 {
+	color: #000;
 	background: url('../img/bookingsimg.jpg') no-repeat;
 }
 
 .panel#schedule
 {
+	color: #000;
 	background: url('../img/scheduleimg.jpg') no-repeat;
 }
 
-.panel#contact
+.panel#services
 {
-	color: #FFF;
+	color: #000;
 	background: url('../img/contactimg.jpg') no-repeat;
 }
 
