@@ -198,6 +198,11 @@ div#navbar ul li a:hover
 
 .panel p a
 {
+	color: #833a83;
+}
+
+.panel p a:hover
+{
 	text-decoration: underline;
 }
 
@@ -271,6 +276,19 @@ div#middle .morebutton a:hover
 	background: url('../img/arrowhover.png') #411c41 no-repeat 250px;
 }
 
+
+.panelHeader
+{
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
+	font-size: 4.5em;
+	font-weight: normal;
+	width: 250px;
+	text-align: left;
+	margin-top: 10px;
+	line-height: 0.75em;
+	padding-left: 10px;
+}
+
 div#left
 {
 	width: 300px;
@@ -279,6 +297,11 @@ div#left
 	float: left;
 	color: #FFF;
 	background: #411c41;
+}
+
+div#middle .panelHeader
+{
+	width: 175px;
 }
 
 div#left p
