@@ -342,9 +342,10 @@ div#right p
 
 h1
 {
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", san-serif;
 	padding: 5px 0px 5px 0px;
-	font-size: 1.2em;
-	text-align: center;
+	font-size: 2em;
+	font-weight: normal;
 }
 
 /* footer */
@@ -483,6 +484,40 @@ div#footer p
 {
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+#aboutleft
+{
+	background: #5B275B;
+}
+
+#aboutleft h1
+{
+	margin: 0;
+	padding: 10px 0px 10px 10px;
+}
+
+#aboutleft p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#aboutright
+{
+	background: #5B275B;
+}
+
+#aboutright h1
+{
+	margin: 0;
+	padding: 10px 0px 10px 10px;
+}
+
+#aboutright p
+{
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .quotebubble-left
