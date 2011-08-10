@@ -224,8 +224,8 @@ div#navbar ul li a:hover
 
 .panel#services
 {
-	color: #000;
-	background: url('../img/contactimg.jpg') no-repeat;
+	color: #FFF;
+	background: url('../img/servicesimg.jpg') no-repeat;
 }
 
 .panel#venues
