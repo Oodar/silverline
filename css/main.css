@@ -486,6 +486,40 @@ div#footer p
 	padding-right: 20px;
 }
 
+#aboutleft
+{
+	background: #833a83;
+}
+
+#aboutleft h1
+{
+	margin: 0;
+	padding: 10px 0px 10px 10px;
+}
+
+#aboutleft p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#aboutright
+{
+	background: #5B275B;
+}
+
+#aboutright h1
+{
+	margin: 0;
+	padding: 10px 0px 10px 10px;
+}
+
+#aboutright p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .quotebubble-left
 {
 	background: #FFF;
