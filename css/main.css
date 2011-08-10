@@ -98,15 +98,12 @@ div#navbar ul li a:hover
 	margin-bottom: 3em;
 }
 
+/*
 #slider h1
 {
-	padding: 0;
-	margin: 0;
-	text-align: left;
-	font-size: 2em;
-	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
-	color: #000;
+	
 }
+*/
 
 #slider ul
 {
@@ -461,6 +458,31 @@ div#footer p
 #servicesNav li a.selected:after
 {
 	border-color: transparent #833a83 transparent transparent !important;
+}
+
+.servicePanel
+{
+	background: #833a83;
+	width: 620px;
+	height: 350px;
+}
+
+.servicePanel h1
+{
+	color: #FFF;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin: 0;
+	text-align: left;
+	font-size: 2em;
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
+	font-weight: normal;
+}
+
+.servicePanel p
+{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .quotebubble-left
