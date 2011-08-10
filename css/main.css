@@ -594,3 +594,8 @@ div#footer p
 	color: #FFF;
 	padding-left: 60px;
 }
+
+#calendar
+{
+	background: #5B275B;
+}

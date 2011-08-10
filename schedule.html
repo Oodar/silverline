@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="css/960.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="fonts/fonts.css" rel="stylesheet" type="text/css" />
+<link href="fullcalendar/fullcalendar.css" rel="stylesheet" type="text-css" />
+
+<script type="text/javascript" src="jquery-1.6.js"></script>
+<script type="text/javascript" src="jquery.corner.js"></script>
+<script type="text/javascript" src="transify.js"></script>
+
+<script type="text/javascript" src="jquery.scrollTo.js"></script>
+<script type="text/javascript" src="jquery.serialScroll.js"></script>
+<script type="text/javascript" src="jquery.localscroll.js"></script>
+
+<script type="text/javascript" src="socialicons.js"></script>
+
+<script type="text/javascript" src="fullcalendar/fullcalendar.js"></script>
+<script type="text/javascript" src="fullcalendar/gcal.js"></script>
+
+<script type="text/javascript">
+			$(document).ready(function() {
+							$('#calendar').fullCalendar({
+									events: 'https://www.google.com/calendar/feeds/theudderone%40gmail.com/public/basic',
+									header:
+									{
+										left: 'prev,next today',
+										center: 'title',
+										right: 'month,agendaWeek,agendaDay'
+									}
+									});
+			});
+</script>
+
+<title>Silver Line</title>
+</head>
+<body>
+	<div class="container_12" id="wrapper">
+ 	<div class="grid_8" id="header"></div>
+	<div class="grid_4" id="navbar">
+       	<ul>
+	    	<li><a href="index.html">Home</a></li>
+            <li><a href="clients.html">Clients</a></li>
+	        <li><a href="about.html">About</a></li>
+     		<li><a href="#">Contact</a></li>
+		</ul>
+	</div>	 
+	<div class="grid_12 spacer"></div>
+	<div class="grid_12" id="calendar">
+	
+	</div>
+    <div class="clear"></div>
+    <div class="spacer"></div>
+    <div class="grid_12" id="footer">
+		<div id="social">
+			follow me: <a href="#"><img id="fbButton" style="vertical-align: middle; padding-left: 5px;" src="img/facebook.png"/></a>
+			<a href="#"><img id="twButton" style="vertical-align: middle;" src="img/twitter.png"/></a>
+			<a href="#"><img id="lnButton" style="vertical-align: middle;" src="img/linkedin.png"/></a>
+		</div>
+        <p><a href="mailto:test@test.com">e-mail</a></p>
+        <p>+441234 567890</p>
+    </div>
+	</div>
+</body>
+</html>
