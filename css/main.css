@@ -25,6 +25,7 @@ body
 {
 	background: #682d68 url("../img/tiledbg.png") repeat-x;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
 }
 
 a
@@ -97,15 +98,12 @@ div#navbar ul li a:hover
 	margin-bottom: 3em;
 }
 
+/*
 #slider h1
 {
-	padding: 0;
-	margin: 0;
-	text-align: left;
-	font-size: 2em;
-	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
-	color: #000;
+	
 }
+*/
 
 #slider ul
 {
@@ -191,6 +189,18 @@ div#navbar ul li a:hover
 	background: #000;
 	color: #FFF;
 	padding: 10px;
+	width: 400px;
+	font-size: 1.3em;
+}
+
+.panel p a
+{
+	color: #833a83;
+}
+
+.panel p a:hover
+{
+	text-decoration: underline;
 }
 
 .panel h2
@@ -202,17 +212,19 @@ div#navbar ul li a:hover
 
 .panel#bookings
 {
+	color: #000;
 	background: url('../img/bookingsimg.jpg') no-repeat;
 }
 
 .panel#schedule
 {
+	color: #000;
 	background: url('../img/scheduleimg.jpg') no-repeat;
 }
 
-.panel#contact
+.panel#services
 {
-	color: #FFF;
+	color: #000;
 	background: url('../img/contactimg.jpg') no-repeat;
 }
 
@@ -261,6 +273,19 @@ div#middle .morebutton a:hover
 	background: url('../img/arrowhover.png') #411c41 no-repeat 250px;
 }
 
+
+.panelHeader
+{
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
+	font-size: 4.5em;
+	font-weight: normal;
+	width: 250px;
+	text-align: left;
+	margin-top: 10px;
+	line-height: 0.75em;
+	padding-left: 10px;
+}
+
 div#left
 {
 	width: 300px;
@@ -269,6 +294,11 @@ div#left
 	float: left;
 	color: #FFF;
 	background: #411c41;
+}
+
+div#middle .panelHeader
+{
+	width: 175px;
 }
 
 div#left p
@@ -430,6 +460,31 @@ div#footer p
 	border-color: transparent #833a83 transparent transparent !important;
 }
 
+.servicePanel
+{
+	background: #833a83;
+	width: 620px;
+	height: 350px;
+}
+
+.servicePanel h1
+{
+	color: #FFF;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin: 0;
+	text-align: left;
+	font-size: 2em;
+	font-family: "BebasNeueRegular", "Arial Narrow", "Arial", "san-serif";
+	font-weight: normal;
+}
+
+.servicePanel p
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .quotebubble-left
 {
 	background: #FFF;
@@ -443,6 +498,7 @@ div#footer p
 
 .quotebubble-left p
 {
+	color: #000;
 	margin: 0;
 	padding: 10px 15px 10px 15px;
 }
@@ -480,6 +536,7 @@ div#footer p
 
 .quotebubble-right p
 {
+	color: #000;
 	margin: 0;
 	padding: 10px 15px 10px 15px;
 }
