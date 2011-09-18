@@ -1,8 +1,7 @@
 // wait for DOM to be ready:
 $(document).ready( function () {
 
-	// transify crap
- 	// this needs to be moved
+	// horrible, but it will do
  	$('.panel p').transify();
 	$('#testing').transify({
 		opacityOrig: .3
