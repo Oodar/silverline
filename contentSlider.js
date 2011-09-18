@@ -71,7 +71,7 @@ $(document).ready( function () {
 			force: true,
 
 		};
-		console.log("services nav found");
+		//console.log("services nav found");
 
 	}
 	else
@@ -88,7 +88,7 @@ $(document).ready( function () {
 			interval: 7000
 		};
 
-		console.log("services nav not found");
+		//console.log("services nav not found");
 
 	}
 	
