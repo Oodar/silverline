@@ -521,13 +521,49 @@ div#footer p
 	padding-right: 10px;
 }
 
+.quote-expand-left
+{
+	position: absolute;
+	top: 0;
+	left: -45px;
+	height: 50px;
+	width: 40px;
+	background: #000;
+}
+
+.quote-expand-right
+{
+	position: absolute;
+	top: 0;
+	right: -45px;
+	height: 50px;
+	width: 40px;
+	background: #000;
+}
+
+.more
+{
+	background: url('../img/down.png') no-repeat;
+}
+
+.less
+{
+	background: url('../img/up.png') no-repeat;
+}
+
+.quote-content
+{
+	overflow: hidden;
+	height: 30px;
+}
 .quotebubble-left
 {
 	background: #FFF;
 	height: 30px;
 	width: 100%;
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	margin-top: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -538,6 +574,7 @@ div#footer p
 	color: #000;
 	margin: 0;
 	padding: 5px 15px 10px 15px;
+	overflow: hidden;
 }
 
 .quotebubble-left-arrow
