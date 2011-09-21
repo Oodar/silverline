@@ -95,7 +95,7 @@ div#navbar ul li a:hover
 	font-family: Georgia;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 3em;
+	margin-bottom: 1.5em;
 }
 
 /*
@@ -195,7 +195,8 @@ div#navbar ul li a:hover
 
 .panel p a
 {
-	color: #833a83;
+	color: #FFF;
+	text-decoration: underline;
 }
 
 .panel p a:hover
@@ -244,7 +245,6 @@ div#navbar ul li a:hover
 	/*background: url('../img/arrow.png') #833a83 no-repeat 250px;*/
 	height: 46px;
 	position: absolute;
-	bottom: 0px;
 	width: 300px;
 }
 
@@ -284,12 +284,13 @@ div#middle .morebutton a:hover
 	margin-top: 10px;
 	line-height: 0.75em;
 	padding-left: 10px;
+	margin-bottom: 20px;
 }
 
 div#left
 {
 	width: 300px;
-	height: 280px;
+	height: 220px;
 	margin-right: 20px;
 	float: left;
 	color: #FFF;
@@ -314,7 +315,7 @@ div#middle
 	float: left;
 	color: #FFF;
 	background: #833a83;
-	height: 280px;
+	height: 215px;
 }
 
 div#middle p
@@ -327,7 +328,7 @@ div#middle p
 div#right
 {
 	width: 300px;
-	height: 280px;
+	height: 215px;
 	float: left;
 	color: #FFF;
 	background: #411c41;
@@ -368,7 +369,7 @@ div#footer p
 /* spacer */
 .spacer
 {
-	height: 2.5em;
+	height: 1.5em;
 }
 
 #bottompanes
@@ -520,12 +521,49 @@ div#footer p
 	padding-right: 10px;
 }
 
+.quote-expand-left
+{
+	position: absolute;
+	top: 0;
+	left: -45px;
+	height: 50px;
+	width: 40px;
+	background: #000;
+}
+
+.quote-expand-right
+{
+	position: absolute;
+	top: 0;
+	right: -45px;
+	height: 50px;
+	width: 40px;
+	background: #000;
+}
+
+.more
+{
+	background: url('../img/down.png') no-repeat;
+}
+
+.less
+{
+	background: url('../img/up.png') no-repeat;
+}
+
+.quote-content
+{
+	overflow: hidden;
+	height: 30px;
+}
 .quotebubble-left
 {
 	background: #FFF;
-	height: 100%;
+	height: 30px;
 	width: 100%;
 	position: relative;
+	/*overflow: hidden;*/
+	margin-top: 20px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -535,7 +573,8 @@ div#footer p
 {
 	color: #000;
 	margin: 0;
-	padding: 10px 15px 10px 15px;
+	padding: 5px 15px 10px 15px;
+	overflow: hidden;
 }
 
 .quotebubble-left-arrow
