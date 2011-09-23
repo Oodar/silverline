@@ -532,6 +532,16 @@ div#footer p
 	background: #000;
 }
 
+.quote-expand-left a span
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 .quote-expand-right
 {
 	position: absolute;
@@ -541,6 +551,17 @@ div#footer p
 	width: 40px;
 	background: #000;
 }
+
+.quote-expand-right a span
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 
 .more
 {
