@@ -84,7 +84,7 @@ $(document).ready( function () {
 			axis: 'xy',
 			duration: 500,
 			force: true,
-			interval: 7000
+			interval: 9000
 		};
 
 		//console.log("services nav not found");
