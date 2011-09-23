@@ -4,7 +4,6 @@ jQuery(document).ready(function() {
 	var startHeight = 30;
 	
 	$(".more").live( 'click', function() {
-		console.log("clicked on more");
 
 		var pHeight = $(this).parents('div:first').children('.quote-content').children('p').height();
 		var pPadBot = $(this).parents('div:first').children('.quote-content').children('p').css('padding-bottom');
@@ -12,7 +11,6 @@ jQuery(document).ready(function() {
 
 		var pPadding = parseInt(pPadBot) + parseInt(pPadTop);
 
-		console.log("pHeight: " + pHeight + " pPadding: " + pPadding);
 
 		var finalHeight = parseInt(pHeight) + parseInt(pPadding);
 
@@ -25,7 +23,6 @@ jQuery(document).ready(function() {
 
 	
 	$(".less").live( 'click', function() {
-		console.log("clicked on less");
 
 		$(this).parents('div:first').animate({height: startHeight}, 1000);
 		$(this).parents('div:first').children('.quote-content').animate({height: startHeight}, 1000);
