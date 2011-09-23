@@ -31,12 +31,12 @@ body
 a
 {
 	color: inherit;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover
 {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #8432c6;
 }
 
@@ -532,6 +532,16 @@ div#footer p
 	background: #000;
 }
 
+.quote-expand-left a span
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 .quote-expand-right
 {
 	position: absolute;
@@ -541,6 +551,17 @@ div#footer p
 	width: 40px;
 	background: #000;
 }
+
+.quote-expand-right a span
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 
 .more
 {
@@ -559,7 +580,7 @@ div#footer p
 }
 .quotebubble-left
 {
-	background: #FFF;
+	background: #e3aff2;
 	height: 30px;
 	width: 100%;
 	position: relative;
@@ -585,7 +606,7 @@ div#footer p
 	height: 0px;
 	position: absolute;
 	border: 10px solid;
-	border-color: #FFF transparent transparent transparent;
+	border-color: #e3aff2 transparent transparent transparent;
 	top: 100%;
 	left: 10%;
 	z-index: 5;
@@ -599,7 +620,7 @@ div#footer p
 
 .quotebubble-right
 {
-	background: #FFF;
+	background: #a062b2;
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -623,7 +644,7 @@ div#footer p
 	height: 0px;
 	position: absolute;
 	border: 10px solid;
-	border-color: #FFF transparent transparent transparent;
+	border-color: #a062b2 transparent transparent transparent;
 	top: 100%;
 	left: 80%;
 	z-index: 5;
