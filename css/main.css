@@ -659,7 +659,8 @@ div#footer p
 .quotebubble-right-source
 {
 	color: #FFF;
-	padding-left: 60px;
+	padding-left: 40px;
+	padding-right: 80px;
 }
 
 #calendar
