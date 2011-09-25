@@ -423,6 +423,7 @@ div#footer p
 	color: #FFF;
 	display: block;
 	position: relative;
+	text-decoration: none;
 }
 
 #servicesNav li a:after
@@ -486,6 +487,11 @@ div#footer p
 {
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.servicePanel a:hover
+{
+	color: #FFF;
 }
 
 #aboutleft
